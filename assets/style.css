@@ -1,0 +1,113 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selectors */
+body {
+    position: relative;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #08090A;
+    background-color: #F4FAFF;
+}
+
+header, 
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #7CC6FE;
+}
+
+header {
+    position: fixed;
+    border-bottom: 12px solid #8789C0;
+}
+
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #8789C0;
+}
+
+li{
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+main {
+    padding: 60px 0;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    height: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1,
+h2 {
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 0px;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #8789C0;
+    background-color: #BCBDDC;
+}
+
+figure {
+    margin-bottom: 40px;
+}
+
+form {
+    /* This will center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #8789C0;
+    border-radius: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #08090A;
+}
+
+textarea {
+    vertical-align: top;
+    height: 60px;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #5DFDCB;
+    color: #08090A;
+}
+
+/* Class Selectors */
+.text-center {
+   text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
